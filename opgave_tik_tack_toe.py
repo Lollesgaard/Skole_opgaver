@@ -15,29 +15,6 @@ def db(board):
     print('   |   |')
 
 
-# def ind(db):
-#     inp = input('Skriv et tal fra 1-9')
-#     if inp == 1:
-#         ind = db[0]
-#     elif inp == 2:
-#         ind = db[1]
-#     elif inp == 3:
-#         ind = db[2]
-#     elif inp == 4:
-#         ind = db[3]
-#     elif inp == 5:
-#         ind = db[4]
-#     elif inp == 6:
-#         ind = db[5]
-#     elif inp == 7:
-#         ind = db[6]
-#     elif inp == 8:
-#         ind = db[7]
-#     elif inp == 9:
-#         ind = db[2]
-
-#     return ind
-
 def sæt_x_o(board,spiller,felt):
     board[felt] = spiller
 
